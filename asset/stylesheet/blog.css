@@ -127,8 +127,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-.Home {
+/* custom style */
+body{
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+header{
   background-color: rgb(7, 22, 76);
   text-align: center;
   padding: 30px;
@@ -137,57 +141,77 @@ table {
 main {
   margin: 30px;
 }
-a {
-  font-size: 25px;
-  color: green;
-  padding: 10px;
+.home{
+  color: white;
   text-decoration: none;
+  font-size: 25px;
+  padding: 10px;
 }
-h1 {
-  font-size: 30px;
+.blog{
+  color: green;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px;
 }
 h2 {
+  font-size: 25px;
+  color: rgb(6,20,69);
+  text-align: start;
+  font-weight: bold;
+}
+p{
   font-size: 20px;
 }
-h3 {
-  font-size: 20px;
+.p1{
+  text-align: left;
+}
+button{
+  background-color:rgb(23,187,61);
+  border-radius:40px;
+  margin-right: 422px;
+  color: white;
+  padding: 12px 30px;
+  border: 0;
+  margin-top: 10px;
 }
 img {
-  width: 100%;
+  width: 550px;
+  height: 400;
 }
-.heading {
-  display: inline-block;
-}
-.para {
-  display: inline-block;
-}
-.featured-article, .inline {
+.featured-article {
   
   width: 1400px;
-  
-  margin: auto;
   display: inline-block;
+  text-align: center;
 }
 .article-info {
   
   display: inline-block;
-  margin-bottom: 100px;
-  width: 650px;
+  width: 550px;
   vertical-align: top;
-  line-height: 1.5;
-}
-.article-img {
-  width: 650px;
-  display: inline-block;
+  height: 400;
+  margin-left: 50px;
 }
 .inline {
   display: inline-block;
+  margin:50px;
+  text-align: start;
 }
 .article-2 {
-  width: 650px;
+  height: 678.47;
+  width: 550px;
+  margin-left: 70px;
   display: inline-block;
 }
 .article-3 {
-  width: 650px;
+  width: 550px;
+  margin-left: 50px;
   display: inline-block;
+}
+.inline, img{
+  display: inline-block;
+}
+.link{
+  color:rgb(23,187,61);
+  font-size: 20px;
 }
