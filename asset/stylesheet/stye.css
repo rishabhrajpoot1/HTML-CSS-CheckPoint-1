@@ -212,6 +212,6 @@ h2 {
   display: inline-block;
 }
 .outline {
-  border: 1px solid black;
+  border: 2px solid black;
   box-sizing: border-box;
 }
